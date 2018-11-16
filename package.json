@@ -1,0 +1,21 @@
+{
+  "name": "restful-api-keylight-challenge",
+  "version": "1.0.0",
+  "description": "RESTful API challenge for Keylight GmbH",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thornus",
+  "license": "ISC"
+}
