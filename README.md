@@ -25,7 +25,8 @@ Example result:
 ```
 
 ## Caveats (as of 16/11/2018)
-Getting the number of watchers would require the API to send a request to the _GitHub Developers API_ for each repository of which we want to know the watchers, thus greatly reducing the API response speed. The GitHub Search API doesn't return the number of watchers.
+Getting the number of watchers would require the API to send a request to the _GitHub Developers API_ for each repository of which we want to know the watchers, thus greatly reducing the API response speed. The GitHub Search API doesn't return the number of watchers so this project is using the returned `watchers` property that is actually the number of stars.
+
 Some devs already mentioned the issue: 
 - https://github.com/milo/github-api/issues/19
 - https://github.com/Blockrazor/blockrazor/…
