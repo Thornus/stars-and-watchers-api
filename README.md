@@ -2,7 +2,7 @@
 
 ## What's this?
 
-This is an API that gets the most starred repos of the day and returns the sum of stars and watchers[&sup1;](#caveats) separately.
+This is an API that gets the most starred repos of the day and returns the sum of stars and watchers[&sup1;](#caveats-as-of-16112018) separately.
 
 ## Endpoints
 
